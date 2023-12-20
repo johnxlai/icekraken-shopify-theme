@@ -4,7 +4,10 @@
     {{ 'style.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    {% render 'header' %}
+    {% comment %} use section for sections folder {% endcomment %}
+    {% section 'header' %}
+    {% comment %} to use snippets header.liquid use "render" {% endcomment %}
+    {% comment %} {% render 'header' %} {% endcomment %}
     {{ content_for_layout }}
     {{ 'scripts.js' | asset_url | script_tag }}
   </body>
