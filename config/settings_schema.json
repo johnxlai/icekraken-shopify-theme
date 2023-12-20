@@ -3,13 +3,13 @@
     "name" : "Colors",
     "settings" :[
       {
-        "type": "Colors",
+        "type": "color",
         "id": "bg",
         "label": "Background color",
         "default":"#fff"
       },
       {
-        "type": "Colors",
+        "type": "color",
         "id": "text_color",
         "label": "Text color",
         "default":"#000"
