@@ -8,6 +8,8 @@
 <body>
   <div id="qr-code"></div>
 
+  <h2>Balance: {{ gift_card.balance | money }}</h2>
+  <h3>Code: {{ gift_card.code }}</h3>
   <script>
     new QRCode(document.getElementById('qr-code'), {
       text: '{{ gift_card.qr_identifier }}',
