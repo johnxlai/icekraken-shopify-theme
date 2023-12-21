@@ -1,0 +1,16 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "show_search": true,
+          "bg": "#848484"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
